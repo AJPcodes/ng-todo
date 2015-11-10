@@ -1,1 +1,8 @@
-console.log("I'm linked up!");
+//initialize app
+var app = angular.module('TodoApp',[])
+
+//make a controller
+//$scope adds variables to the DOM
+app.controller('TodoCtrl', function($scope){
+	$scope.title = "Welcome to your Angular Todo App"
+})
