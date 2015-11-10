@@ -8,7 +8,17 @@
 </head>
 <body ng-app="TodoApp">
 
-	<section ng-controller="TodoCtrl">{{title}}</section>
+	<section ng-controller="PastaCtrl">
+		<h1>{{pasta}}</h1>
+		<div>
+			<input type="text"/ ng-model="foods">
+			<div>{{foods}}</div>
+		</div>
+	</section>
+
+	<section ng-controller="TodoCtrl">
+		<h1>{{title}}</h1>
+	</section>
 
 
 
